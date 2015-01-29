@@ -15,12 +15,11 @@ class MY_Controller extends CI_Controller {
      * Constructor.
      * Establish view parameters & load common helpers
      */
-    function __construct()
-    {
-	parent::__construct();
-	$this->data = array();
+    function __construct() {
+        parent::__construct();
+        $this->data = array();
         $this->data['curpage'] = '';
-	$this->data['pagetitle'] = '';
+        $this->data['pagetitle'] = '';
     }
     /**
      * Render this page
